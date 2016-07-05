@@ -1,0 +1,100 @@
+body,h1,h2,h3,h4,p,dl,dd,ul,ol,form,input,textarea,th,td,select{margin: 0;padding: 0;} 
+em{font-style: normal;}
+li{list-style: none;}
+a{text-decoration: none;}
+img{border: none;vertical-align: top;}
+table{border-collapse: collapse;}
+input,textarea{outline: none;}
+textarea{resize:none;overflow: auto;}
+body{font-size:12px;font-family: arial;}
+*{margin: 0;padding: 0;}
+
+#wrap{
+	width: 320px;
+	height: 480px;
+	background: url(../img/game_bg.jpg) no-repeat;
+	margin: 0 auto;
+	position: relative;
+}
+#fen{
+	font-size: 30px;
+	color: white;
+	position: absolute;
+	top: 6px;
+	left: 80px;
+}
+p{
+	width: 180px;
+	height: 16px;
+	position: absolute;
+	top: 66px;
+    left: 63px;
+	background: url(../img/progress.png) no-repeat;
+	// background-size: 100% 100%;
+	border-radius: 15px;
+}
+.img{
+	width: 108px;
+	height: 101px;
+	background-image: url(../img/h.png);
+	background-size: 1000% 100%;
+	position: absolute;
+	display: none;
+}
+#wrap div:nth-child(3){
+	left: 17px;
+    top: 159px;
+}
+#wrap div:nth-child(4){
+    left: 98px;
+    top: 114px;
+}
+#wrap div:nth-child(5){
+    left: 186px;
+    top: 141px;
+}
+#wrap div:nth-child(6){
+    left: 16px;
+    top: 220px;
+}
+#wrap div:nth-child(7){
+    left: 103px;
+    top: 191px;
+}
+#wrap div:nth-child(8){
+    left: 200px;
+    top: 210px;
+}
+#wrap div:nth-child(9){
+    left: 30px;
+    top: 293px;
+}
+#wrap div:nth-child(10){
+	left: 118px;
+    top: 273px;
+}
+#wrap div:nth-child(11){
+	left: 205px;
+    top: 295px;
+}
+#str{
+	color: white;
+	font-size: 50px;
+	font-weight: bold;
+	cursor: pointer;
+	position: absolute;
+    top: 185px;
+    left: 60px;
+}
+#end{
+	color: red;
+	font-size: 50px;
+	font-weight: bold;
+	position: absolute;
+    top: 180px;
+    left: 60px;
+	display: none;
+}
+#fssize{
+	font-size: 30px;
+}
